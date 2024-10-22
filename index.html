@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="indexstyle.css">
+        <script src="indexscript.js" defer></script>
+        <style>
+            
+            
+        </style>
+    </head>
+
+    <body onload="start()" id="section1">
+
+        <div class="top" style="background-color: white">
+
+            <div style="display: block; width: 100%; height: auto;">
+                <div class="module" style="height: auto; width: 37.7%; padding-top: 100px;">
+                    <div style="max-width: 80%;">
+                        <h1 style="text-align: left;">Die einfachste Spendenplattform Deutschlands</h1>
+                        <p style="text-align: left; color: rgb(0, 0, 0, 0.6); text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);">Klicken. Kaufen. Spenden.</p>
+                        <div class="search-wrapper">
+                            
+                            <input type="text" id="searchbar" class="searchbar" style="color: black; margin-top: 75px; margin-left: 0px; width: 100%;margin-left: 0px;" data-search placeholder="Nach Produkten suchen...">
+                        </div>
+                        <p class="t1">Du findest dein Produkt nicht?</p>
+                        <p class="arrow">&darr;</p>
+                        <a class="buttonlink" href="#section2" >Schau hier</a>
+                        <div class="spacer"></div>
+
+                    </div>
+                </div>
+                <div class="module" style="height: auto; min-height: 100vh;margin-left: 0px; padding-top: 50px; width: 61.7%; background: rgb(227,238,240);
+                background: linear-gradient(90deg, rgba(227,238,240,1) 0%, rgba(94,179,196,1) 100%); height: 100%; padding-left: 0; margin-left: 0;">
+                    
+                    <div class="user-cards" id="user-cards">
+
+                        <!--<div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Airpods Max
+                            </div>
+                            <img src="images/airpodsmax.jpg" class="smallimg" >
+                            <div class="body" style="overflow: hidden">
+                                <a class="affLink" href="https://www.google.com/marketing/felixwolny">https://www.google.com/marketing/felixwolny</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Airpods Pro 2
+                            </div>
+                            <img src="images/airpodspro2.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                iPhone 12
+                            </div>
+                            <img src="images/iPhone12.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink" >https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                iPhone 13
+                            </div>
+                            <img src="images/iPhone13.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                iPhone 14 Pro
+                            </div>
+                            <img src="images/iPhone14pro.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                iPhone 11
+                            </div>
+                            <img src="images/iPhone11.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Macbook Air M2
+                            </div>
+                            <img src="images/macbookairm2.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                2022 Apple TV 4K
+                            </div>
+                            <img src="images/2022appletv4k.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Macbook Pro 14" M1Pro
+                            </div>
+                            <img src="images/macbookpro14m1pro.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Macbook Air M1
+                            </div>
+                            <img src="images/macbookairm1.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        Here starts the real part, the part without pictures and links -> Coming soon 
+
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Dot (5th generation, 2022)
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire TV Stick with Alexa HD
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire TV Stick with Alexa 4K
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Dot with clock (5th generation, 2022)
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire TV Stick with Alexa 4K Max
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Show 5 (2nd generation, 2021)
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire TV Stick lite with Alexa HD
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Show 8 (2nd generation, 2021)
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Amazon Smart Plug with Alexa
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Studio Speaker with Alexa
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Blink Outdoor 2 Security Cameras
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 8 Kids Pro Tablet
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 10 Kids Pro Tablet
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo (4th Generation) with Alexa
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 8 Kids Tablet
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Kindle Paperwhite (8 GB)
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Dot (5th generation, 2022) Kids
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 10 Tablet
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Ring Video Doorbell Amazon
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Kindle Paperwhite 8GB - with Ads
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Kindle Paperwhite Signature (32GB)
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Blink Mini Security Camera
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire TV Cube with Alexa 4K Ultra
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Show 10 HD
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire TV Stick Lite with Alexa HD
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire 7 Kids Tablet, 7" 16GB
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 8 Tablet
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo Show 15
+                            </div>
+                            <img src="" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Amazon Ethernet Adapter for Fire TV
+                            </div>
+                            <img src="images/amazonethernet.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                NuPro Displayschutzfolie für Amazon Fire HD 10
+                            </div>
+                            <img src="images/NuPro Schutzfolie Fire HD 10.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 10 Kids Tablet
+                            </div>
+                            <img src="images/Fire HD 10 Kids Tablet.jpg
+                            " class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Blink Video Doorbekk + Sync Module 2
+                            </div>
+                            <img src="images/Blinkvideosdoorbellsyncmodule2.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 10 Tablet
+                            </div>
+                            <img src="images/Firehd10Tablet.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Echo auto
+                            </div>
+                            <img src="images/Echoauto.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Blink Mini Pan Tilt Camera
+                            </div>
+                            <img src="images/BlinkMinipanstiltcamera.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Fire HD 10 Kids Tablet 32GB
+                            </div>
+                            <img src="images/firehd10kidstablet32gb.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Ring Überwachungskamera außen
+                            </div>
+                            <img src="images/ringüberwachungskameraaußen.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                Kindle (2022 release)
+                            </div>
+                            <img src="images/kindle2022release.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                <div class="tag">Druckerpatronen</div>HP 302 Printer Cartridges
+                            </div>
+                            <img src="images/HP302MultipackPrinterCartridgeshpdddeskjet1110:2130:3630.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                <div class="tag">Druckerpatronen</div>ColorKing Compatible with HP Officejet Pro 7740 7720 8710 8715 8720 7730 8210 8218 8725 8730 740 S
+                            </div>
+                            <img src="images/Colorking359xl multi HP a lot.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>
+                        <div class="card hide" onclick="location.href='https://google.com'">
+                            <div class="header">
+                                <div class="tag">Druckerpatronen</div>301 Printer Cartridges Multipack
+                            </div>
+                            <img src="images/HP302MultipackPrinterCartridgeshpdddeskjet1110:2130:3630.jpg" class="smallimg" >
+                            <div class="body">
+                                <a href="https://www.google.com" class="affLink">https://www.google.com</a>
+                            </div>
+                        </div>-->
+                        
+
+                        
+                       
+                        
+                    </div>
+                    <!-- wichtig cards ab hier nicht mehr löschen-->
+                    <div class="headermore hide">
+                        <div>
+                            <a class="morelink" onclick="displayAll()">More...</a>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+        </div>
+        
+        <hr>
+        <div style="margin-top: -250px; margin-bottom: 250px;" id="section2"></div>
+        <div style="padding-bottom: 50px; padding-top: 15px;">
+            <form action="https://formsubmit.co/affiliatedonations@mail.de" method="POST">
+                <p style="margin-top: 70px; margin-bottom: 35px">Du findest dein Produkt nicht? Sende uns den Amazon-Link und wir fügen es hinzu!</p>
+                <input type="text" name="the link" required placeholder="Der Link" style="border: 1px solid rgba(0, 0, 0, 0.05)">
+                <input type="email" name="email" placeholder="E-mail, zum benachrichtigen, wenn der Link vorhanden ist" style="border: 1px solid rgba(0, 0, 0, 0.05)">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_subject" value="New link to ADD!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_autoresponse" value="Danke, dass du uns benachrichtigt hast. Wir werden den Link in ungefähr einer Stunde parat haben und ihn dir zuschicken, damit du als erster davon profitieren kannst.">
+                <input type="hidden" name="_next" value="https://einfach-spenden.000webhostapp.com/thankyou.html">
+                <button style="margin-left: auto; margin-right: auto; margin-top: 35px;" type="submit">Hinzufügen</button>
+           </form>
+        </div>
+        <hr class="hide">
+        <div class="hide">
+            <h3 >Zusätzliche Links</h3>
+            <div class="smallmod">
+                <p style="margin-bottom: 10px; color: rgb(67, 202, 67); font-size: 30px;">Skillshare</p>
+                <p><a>https://www.skillshare.com/partner</a></p>
+            </div>
+        </div>
+        
+        <hr>
+        <div style="display: block; width: 65vw; margin-left: auto; margin-right:auto">
+            <h2 style="margin-top: 50px; margin-bottom: 35px;">So funktionierts</h2>
+            <p style="text-align: center; margin-bottom: 50px; opacity: .8; line-height: 1.5; margin-top: 20px;">Wie bei Amazon kannst du auf unserer Website einfach nach Produkten suchen. Der Unterschied besteht darin, dass Amazon uns eine Marketingprovision zahlt, wenn du das Produkt über den Link auf dieser Website käufst. Wir spenden den den gesamten Ertrag an wohltätige Zwecke. <b>Du zahlst keinen Cent mehr.</b></p>
+        </div>
+        <hr>
+        <footer style="text-align: center;  height: 350px; vertical-align: top; margin-bottom: 0; padding-top: 75px; padding-bottom: 20px;">
+            <div class="fdiv">    
+                <p style="font-size: 2.3rem;line-height: 40px; letter-spacing: 0.5px; text-align: center; margin-bottom: 50px; margin-top: 100px; font-weight: 300; font-family: 'Noto Serif Display', serif; ">
+                    Together we can do so much.</p>
+            </div>
+            <div class="fdiv2"> 
+                <a class="footerLink" style="margin-top: 50px; margin-bottom: 50px; text-decoration: none;" href="mailto:affiliatedonations@mail.de">Contact</a>
+                <a class="footerLink" style="text-decoration: none;" href="https://www.makeachange.com">Financial Report</a>   
+            </div>
+            <cprt style="text-align: center; font-family: Arial, Helvetica, sans-serif; display: block; margin-top: 100px; height:30px">© 2022 Fly Media Group. All rights reserved</cprt>
+    
+        </footer>
+    </body>
+</html>
